@@ -14,6 +14,7 @@
 /**************/
 .inner-content {
   max-width: 800px;
+  margin 0 auto;
 }
 
 #main {
@@ -39,6 +40,11 @@ p {
   font-family: $roboto;
   font-size: 1.3rem;
   line-height: 2rem;
+}
+
+.video-embed iframe {
+  display: block;
+  margin: 0 auto 1rem auto;
 }
 
 
