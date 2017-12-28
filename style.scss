@@ -12,7 +12,31 @@
 /**************/
 /* BASE RULES */
 /**************/
+.inner-content {
+  max-width: 800px;
+}
 
+#main {
+  margin-top: 6rem;
+}
+
+html {
+  font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6, li {
+  font-family: $openSans;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+p {
+  font-family: $roboto;
+}
 
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
