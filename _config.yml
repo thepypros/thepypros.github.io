@@ -10,7 +10,7 @@ description: Python with a purpose.
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png
-logo: https://github.com/thepypros/thepypros.github.io/blob/master/images/pypros-light-450.png
+logo: /images/pypros-light-450.png
 #
 # Flags below are optional
 #
