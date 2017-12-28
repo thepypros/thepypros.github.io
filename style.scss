@@ -14,7 +14,7 @@
 /**************/
 .inner-content {
   max-width: 800px;
-  margin 0 auto;
+  margin: 0 auto;
 }
 
 #main {
@@ -44,7 +44,8 @@ p {
 
 .video-embed iframe {
   display: block;
-  margin: 0 auto 1rem auto;
+  margin: 0 auto;
+  margin-bottom: 1rem;
 }
 
 
