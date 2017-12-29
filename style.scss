@@ -27,19 +27,20 @@ html {
 
 h1, h2, h3, h4, h5, h6, li {
   font-family: $openSans;
+  margin-bottom: 1rem;
 }
 
 h1 {
   font-size: 2rem;
   font-weight: 800;
   text-align: center;
-  margin-bottom: 1rem;
 }
 
 p {
   font-family: $roboto;
   font-size: 1.3rem;
   line-height: 2rem;
+  margin-bottom: 1rem;
 }
 
 .video-embed iframe {
@@ -48,6 +49,9 @@ p {
   margin-bottom: 1rem;
 }
 
+.hidden {
+  display: none;
+}
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
