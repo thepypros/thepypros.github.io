@@ -37,7 +37,8 @@
     <script>
 
     $(window).scroll(function() {
-
+      var width = $(window).width();
+      if (width >= 992) {
         if ($(this).scrollTop()>0)
          {
             // $("#nav-ul").addClass("hidden");
@@ -48,6 +49,7 @@
            // $("#nav-ul").removeClass("hidden");
            $("#header-cta").addClass("hidden");
          }
+       }
      });
     </script>
   </body>

@@ -27,6 +27,9 @@ html {
 
 h1, h2, h3, h4, h5, h6, li, a.btn {
   font-family: $openSans;
+}
+
+h1, h2, h3, h4, h5, h6 {
   margin-bottom: 1rem;
 }
 
@@ -49,6 +52,10 @@ p {
   margin-bottom: 1rem;
 }
 
+nav {
+  background-color: #fff;
+}
+
 .navbar-text {
   margin-bottom: 0;
 }
@@ -63,6 +70,7 @@ p {
 
 #header-cta a {
   margin-left: 1rem;
+  color: #fff;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
