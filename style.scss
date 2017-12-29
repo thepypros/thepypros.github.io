@@ -25,7 +25,7 @@ html {
   font-size: 16px;
 }
 
-h1, h2, h3, h4, h5, h6, li {
+h1, h2, h3, h4, h5, h6, li, a.btn {
   font-family: $openSans;
   margin-bottom: 1rem;
 }
@@ -55,6 +55,14 @@ p {
 
 .hidden {
   display: none !important;
+}
+
+#header-cta {
+  margin-left: 2rem;
+}
+
+#header-cta a {
+  margin-left: 1rem;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
