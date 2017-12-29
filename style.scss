@@ -50,7 +50,7 @@ p {
 }
 
 .hidden {
-  display: none;
+  display: none !important;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
