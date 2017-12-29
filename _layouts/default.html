@@ -40,11 +40,13 @@
 
         if ($(this).scrollTop()>0)
          {
-            $('#navbarToggler').fadeOut();
+            $("#navbarToggler").addClass("hidden");
+            $("#header-cta").removeClass("hidden");
          }
         else
          {
-          $('#navbarToggler').fadeIn();
+           $("#navbarToggler").removeClass("hidden");
+           $("#header-cta").addClass("hidden");
          }
      });
     </script>
