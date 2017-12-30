@@ -48,6 +48,16 @@ p {
 
 a {
   color: $darkBlue;
+  &:hover {
+    color: $lightBlue;
+    text-decoration: none;
+  }
+}
+
+//Blog page
+.blog-title {
+  font-size: 1.5rem;
+  text-align: left;
 }
 
 .video-embed{
@@ -83,7 +93,7 @@ nav {
 
 #header-cta a {
   margin-left: 1rem;
-  color: $black;
+  color: $white;
   background-color: $lightBlue;
   border-color: $lightBlue;
   &:hover {
@@ -95,9 +105,6 @@ nav {
 .footer {
   background-color: $black;
   padding: 1rem 0;
-  width: 100%;
-  bottom: 0;
-  position: absolute;
   span {
     display: inline-block;
   }
@@ -111,6 +118,7 @@ nav {
 }
 #footer-cta {
   text-align: center;
+  color: $white;
   a {
     color: $black;
     background-color: $yellow;
