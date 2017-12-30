@@ -46,6 +46,10 @@ p {
   margin-bottom: 1rem;
 }
 
+a {
+  color: $darkBlue;
+}
+
 .video-embed{
     overflow:hidden;
     padding-bottom:56.25%;
@@ -79,24 +83,43 @@ nav {
 
 #header-cta a {
   margin-left: 1rem;
-  color: $white;
+  color: $black;
+  background-color: $lightBlue;
+  border-color: $lightBlue;
+  &:hover {
+    background-color: $darkBlue;
+    border-color: $darkBlue;
+  }
 }
 
 .footer {
   background-color: $black;
-  color: $white;
   padding: 1rem 0;
+  width: 100%
+  bottom: 0;
+  position: absolute;
   span {
     display: inline-block;
   }
-  .copyright {
-    color: $gray;
-    text-align: right;
-    font-size: 1rem;
-    margin: 0;
-  }
-  #footer-cta {
-    text-align: center;
+}
+
+.copyright {
+  color: $gray;
+  text-align: right;
+  font-size: 1rem;
+  margin: 0;
+}
+#footer-cta {
+  text-align: center;
+  a {
+    color: $black;
+    background-color: $yellow;
+    border-color: $yellow;
+    &:hover {
+      color: $yellow;
+      background-color: $black;
+      border-color: $yellow;
+    }
   }
 }
 
