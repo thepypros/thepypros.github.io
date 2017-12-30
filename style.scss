@@ -91,7 +91,12 @@ nav {
   }
   .copyright {
     color: $gray;
+    text-align: right;
     font-size: 1rem;
+    margin: 0;
+  }
+  #footer-cta {
+    text-align: center;
   }
 }
 
