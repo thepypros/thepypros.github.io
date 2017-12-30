@@ -85,12 +85,13 @@ nav {
 .footer {
   background-color: $black;
   color: $white;
-  p {
+  padding: 1rem 0;
+  span {
     display: inline-block;
   }
   .copyright {
     color: $gray;
-    font-size: .5rem;
+    font-size: 1rem;
   }
 }
 
