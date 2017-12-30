@@ -46,10 +46,19 @@ p {
   margin-bottom: 1rem;
 }
 
-.video-embed iframe {
-  display: block;
-  margin: 0 auto;
-  margin-bottom: 1rem;
+.video-embed{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+
+.video-embed iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
 }
 
 nav {
