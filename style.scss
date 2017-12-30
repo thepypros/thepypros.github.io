@@ -79,11 +79,19 @@ nav {
 
 #header-cta a {
   margin-left: 1rem;
-  color: #fff;
+  color: $white;
 }
 
 .footer {
-  background-color: #000;
+  background-color: $black;
+  color: $white;
+  p {
+    display: inline-block;
+  }
+  .copyright {
+    color: $gray;
+    font-size: .5rem;
+  }
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
