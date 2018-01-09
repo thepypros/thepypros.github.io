@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+<article class="page">
+
+  <h1>{{ page.title }}</h1>
+
+  <div class="entry">
+    {{ content }}
+    <form action="https://formspree.io/thepypros@gmail.com" method="POST">
+      <div class="form-row">
+        <div class="col">
+          <input type="text" name="name" placeholder="Name" class="form-control">
+        </div>
+        <div class="col">
+          <input type="email" name="_replyto" placeholder="Email address" class="form-control">
+        </div>
+      </div>
+      <textarea type="text" name="message" placeholder="Message" class="form-control"></textarea>
+      <input type="text" name="_gotcha" class="form-control" style="display:none">
+      <button type="submit" value="Send" class="btn btn-primary">Send message</button>
+    </form>
+  </div>
+</article>
