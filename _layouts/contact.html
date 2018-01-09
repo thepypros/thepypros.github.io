@@ -2,13 +2,13 @@
 layout: default
 ---
 
-<article class="page">
+<article class="page inner-content">
 
   <h1>{{ page.title }}</h1>
 
   <div class="entry">
     {{ content }}
-    <form action="https://formspree.io/thepypros@gmail.com" method="POST">
+    <form class="contact-form" action="https://formspree.io/thepypros@gmail.com" method="POST">
       <div class="form-row">
         <div class="col">
           <input type="text" name="name" placeholder="Name" class="form-control">
@@ -19,7 +19,10 @@ layout: default
       </div>
       <textarea type="text" name="message" placeholder="Message" class="form-control"></textarea>
       <input type="text" name="_gotcha" class="form-control" style="display:none">
-      <button type="submit" value="Send" class="btn btn-primary">Send message</button>
+      <button type="submit" value="Send" class="btn btn-primary">
+        <i class="fa fa-envelope" aria-hidden="true"></i>
+        <span>Send message</span>
+      </button>
     </form>
   </div>
 </article>
