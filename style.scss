@@ -138,10 +138,20 @@ nav {
   color: $lightBlue;
 }
 
+.ebook-offer ul {
+  display: block;
+  width: 350px;
+  margin: 0 auto;
+}
+
 .ebook-offer li {
   color: $white;
   font-size: 1.25rem;
   line-height: 2rem;
+}
+
+.ebook-offer li i {
+  margin-right: .5rem;
 }
 
 .ebook-offer .form-name {
