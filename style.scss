@@ -119,6 +119,11 @@ nav {
   text-align: center;
 }
 
+.ebook-offer #main {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
 .ebook-offer img {
   display: block;
   margin: 0 auto;
@@ -145,8 +150,13 @@ nav {
 
 .ebook-offer button {
   width: 100%;
+  font-size: 1.5rem;
+  border: none;
   background-color: $lightBlue;
   box-shadow: 0px 3px 0px 0px $darkBlue;
+  &:hover {
+    background-color: $lightBlue;
+  }
 }
 
 .ebook-offer .privacy {
