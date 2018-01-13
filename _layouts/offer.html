@@ -2,9 +2,9 @@
 layout: plain
 ---
 
-<article class="container">
+<article class="container offer">
 <div class="row">
-  <div class="col-md-6">
+  <div class="col-md-6 cover">
     <img src="{{ page.image }}" alt="{{ page.title }}" height="518" width="480">
   </div>
   <div class="col-md-6">
@@ -12,14 +12,17 @@ layout: plain
     <h1>{{ page.headline }}</h1>
     <ul>{{ page.features }}</ul>
     <form>
-      <input type="text" name="name" placeholder="Name" class="form-control">
+      <input type="text" name="name" placeholder="Name" class="form-control form-name">
       <input type="email" name="email" placeholder="Email address" class="form-control">
       <button type="submit" value="Send" class="btn btn-primary">
         <i class="fa fa-envelope" aria-hidden="true"></i>
         <span>Send message</span>
       </button>
     </form>
-    <span>100% Privacy. We will never share your information with any third parties.</span>
-  </div>  
+    <div class="privacy">
+      <i class="fa fa-lock" aria-hidden="true"></i>
+      <span>100% Privacy. We will never share your information with any third parties.</span>
+    </div>
+  </div>
 </div>
 </article>

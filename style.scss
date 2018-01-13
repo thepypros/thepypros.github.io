@@ -112,6 +112,48 @@ nav {
   }
 }
 
+//eBook offer
+.ebook-offer {
+  background-color: $darkGray;
+  color: $white;
+  text-align: center;
+}
+
+.ebook-offer img {
+  display: block;
+  margin: 0 auto;
+}
+
+.ebook-offer h1 {
+  text-transform: uppercase;
+}
+
+.ebook-offer h2 {
+  font-size: 1.5rem;
+  color: $lightBlue;
+}
+
+.ebook-offer li {
+  color: $white;
+  font-size: 1.25rem;
+  line-height: 2rem;
+}
+
+.ebook-offer .form-name {
+  margin-top: 1rem;
+}
+
+.ebook-offer button {
+  width: 100%;
+  background-color: $lightBlue;
+  box-shadow: 0px 3px 0px 0px $darkBlue;
+}
+
+.ebook-offer .privacy {
+  color: $gray;
+  margin-top: 1rem;
+}
+
 //Footer
 .footer {
   background-color: $black;
