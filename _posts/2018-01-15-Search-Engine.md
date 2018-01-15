@@ -1,7 +1,10 @@
 ---
 intro: |
   Have you ever wanted to scrape search engine results from the web? In this project, I use a search engine called StartPage as it provides similar results to Google without the extra headache of bypassing Google's bot detection protocols. Check out the video below to see how I did it:
+excerpt: |
+    Have you ever wanted to scrape search engine results from the web? In this project, I use a search engine called StartPage as it provides similar results to Google without the extra headache of bypassing Google's bot detection protocols.
 layout: post
+published: false
 title: Get Search Engine Results with Python
 youtube: EELySnTPeyw
 ---
