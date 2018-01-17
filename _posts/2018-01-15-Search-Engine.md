@@ -83,7 +83,7 @@ def get_results(search_term):
     try:
         links = browser.find_elements_by_xpath("//ol[@class='web_regular_results']//h3//a")
     except:
-        links = browser.find_elements_by_xpath('//h3//a')
+        links = browser.find_elements_by_xpath("//h3//a")
     results = []
     for link in links:
         href = link.get_attribute("href")
