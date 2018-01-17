@@ -10,10 +10,10 @@ youtube: EELySnTPeyw
 ---
 Let's start by importing Selenium and creating a function to request a webpage.
 ```python
-//Import Selenium
+#Import Selenium
 import selenium.webdriver as webdriver
 
-//Create a function for getting the specified URL
+#Create a function for getting the specified URL
 def get_results(search_term):
   url = "https://www.startpage.com"
   browser = webdriver.Firefox()
@@ -52,11 +52,11 @@ Next, let's create a list and iterate through the links:
 ```python
 results = []
 for link in links:
-    //Grabs the href attribute value
+    #Grabs the href attribute value
     href = link.get_attribute("href")
     //Printing is not necessary, but makes it easier to see each link as it's being iterated on.
     print(href)
-    //Add each link to our results list
+    #Add each link to our results list
     results.append(href)
 browser.close()
 return results
