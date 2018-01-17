@@ -1,13 +1,14 @@
 
 pre.highlight {
-  background-color: #efefef;
+  // background-color: #efefef;
+  background-color: $darkBlue /*PyPros*/
   padding: 7px 7px 7px 10px;
   border: 1px solid #ddd;
   -moz-box-shadow: 3px 3px rgba(0,0,0,0.1);
   -webkit-box-shadow: 3px 3px rgba(0,0,0,0.1);
   box-shadow: 3px 3px rgba(0,0,0,0.1);
   margin: 20px 0 20px 0;
-  overflow: scroll;
+  // overflow: scroll;
 }
 
 code {
@@ -39,7 +40,8 @@ code {
 .highlight .gt { color: #93A1A1 } /* Generic.Traceback */
 .highlight .kc { color: #CB4B16 } /* Keyword.Constant */
 .highlight .kd { color: #268BD2 } /* Keyword.Declaration */
-.highlight .kn { color: #859900 } /* Keyword.Namespace */
+// .highlight .kn { color: #859900 } /* Keyword.Namespace */
+.highlight .kn { color: #c678dd } /* Keyword.Namespace PyPros */
 .highlight .kp { color: #859900 } /* Keyword.Pseudo */
 .highlight .kr { color: #268BD2 } /* Keyword.Reserved */
 .highlight .kt { color: #DC322F } /* Keyword.Type */
