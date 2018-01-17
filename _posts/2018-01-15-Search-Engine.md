@@ -54,12 +54,12 @@ results = []
 for link in links:
     #Grabs the href attribute value
     href = link.get_attribute("href")
-    //Printing is not necessary, but makes it easier to see each link as it's being iterated on.
+    #Printing is not necessary, but makes it easier to see each link as it's being iterated on.
     print(href)
     #Add each link to our results list
     results.append(href)
-browser.close()
-return results
+    browser.close()
+    return results
 ```
 
 Finally, we can call our get_results() function and pass it any search term we desire. We could adapt the design to take command-line arguments, or pass in a list of search terms from a .csv file, but for now we'll keep it simple.
@@ -89,8 +89,8 @@ def get_results(search_term):
         href = link.get_attribute("href")
         print(href)
         results.append(href)
-    browser.close()
-    return results
+        browser.close()
+        return results
 
 response = get_results("dog")
 ```
