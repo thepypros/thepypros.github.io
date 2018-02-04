@@ -77,7 +77,7 @@ img {
 
 .hero-overlay {
   position: absolute;
-  top: 12rem;
+  top: 14rem;
 }
 
 #hero h1 {
@@ -86,12 +86,22 @@ img {
   text-transform: uppercase;
   color: $black;
   font-weight: bold;
+  text-align: left;
 }
 
 #hero h2 {
   font-size: 1.5rem;
   line-height: 2rem;
   margin-bottom: 2rem;
+}
+
+#hero .col-7 {
+  padding-right: 1rem;
+}
+
+#hero .email {
+  width: 100%;
+  margin-bottom: 0;
 }
 
 .posts {
