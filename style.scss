@@ -255,6 +255,21 @@ nav {
   }
 }
 
+//Weakestlink
+
+#link header {
+  background-color: #283e4a;
+}
+
+#link header img {
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+}
+
+#link .profile-pic {
+  width: 100%;
+}
+
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
