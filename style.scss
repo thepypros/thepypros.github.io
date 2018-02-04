@@ -313,8 +313,8 @@ nav {
 }
 
 #link th {
-  padding: .5rem .5rem .5rem 0;
-  color: $lightGray;
+  padding: .5rem .5rem 0 0;
+  color: $gray;
 }
 
 #link .no-connections {
@@ -324,7 +324,7 @@ nav {
 
 #link .connections {
   font-size: .8rem;
-  color: $lightGray;
+  color: $gray;
 }
 
 #link #profile .col-2 {
