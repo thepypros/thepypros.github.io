@@ -68,6 +68,19 @@ img {
 
 #hero img {
   width: 100%;
+  position: relative;
+}
+
+.hero-overlay {
+  position: absolute;
+  top: 12rem;
+}
+
+#hero h1 {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  color: $black;
+  font-weight: bold;
 }
 
 .posts {
