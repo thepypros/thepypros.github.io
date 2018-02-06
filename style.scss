@@ -331,10 +331,19 @@ nav {
   text-align: right;
 }
 
+#link #activity a {
+  font-weight: bold;
+}
+
 #link .activity-list li {
   border: 1px solid $lightGray;
   padding: .5rem;
   margin-top: .5rem;
+}
+
+#link .actvity-list {
+  margin-left: 0;
+  margin-right: 0;
 }
 
 #link .activity-list li span {
