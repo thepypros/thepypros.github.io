@@ -19,8 +19,9 @@
   <body>
     {% include header.html %}
     {% if page.div_id %}
-    <div id="{{ page.div_id }}" role="main"">
+    <div id="{{ page.div_id }}" role="main">
       {{ content }}
+    </div>  
     {% else %}
     <div id="main" role="main" class="container">
       {{ content }}
