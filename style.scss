@@ -265,6 +265,15 @@ nav {
   }
 }
 
+#link h2 {
+  font-size: 1rem;
+  margin-bottom: 2rem;
+}
+
+#link p {
+  font-size: .9rem;
+  line-height: 1.2rem;
+}
 
 #link header {
   background-color: #283e4a;
@@ -282,7 +291,7 @@ nav {
   padding: 1rem;
 }
 
-#link #profile {
+#link #profile h2 {
   margin-top: 2rem;
 }
 
@@ -297,8 +306,7 @@ nav {
   text-align: left;
 }
 
-#link h2 {
-  font-size: 1rem;
+#link #profile h2 {
   margin-bottom: .25rem;
 }
 
@@ -341,7 +349,7 @@ nav {
   margin-top: .5rem;
 }
 
-#link .actvity-list {
+#link .activity-list {
   margin-left: 0;
   margin-right: 0;
 }
@@ -356,6 +364,8 @@ nav {
   margin-left: .5rem;
   font-weight: bold;
 }
+
+
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
