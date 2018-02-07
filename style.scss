@@ -270,6 +270,10 @@ nav {
   margin-bottom: 2rem;
 }
 
+#link h3, #link h4 {
+  margin-bottom: .25rem;
+}
+
 #link p {
   font-size: .9rem;
   line-height: 1.2rem;
@@ -365,6 +369,15 @@ nav {
   font-weight: bold;
 }
 
+#link h3 {
+  font-weight: bold;
+}
+
+#link .details {
+  font-size: .75rem;
+  color: $lightGray;
+  margin-bottom: .5rem;
+}
 
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
