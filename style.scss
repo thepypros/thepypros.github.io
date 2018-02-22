@@ -430,6 +430,9 @@ nav {
   border-color: $darkBlue;
   color: $white;
 }
+#udemy-contacts nav .disabled .page-link {
+  color: #868e96;
+}
 
 #udemy-contacts h3 {
   font-size: 1.5rem;
