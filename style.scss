@@ -421,13 +421,14 @@ nav {
   margin-bottom: 1rem;
 }
 
-#udemy-contacts nav .active {
-  background-color: $darkBlue;
-  border-color: $darkBlue;
-}
-
 #udemy-contacts nav .page-link {
   color: $darkBlue;
+}
+
+#udemy-contacts nav .active .page-link {
+  background-color: $darkBlue;
+  border-color: $darkBlue;
+  color: $white;
 }
 
 #udemy-contacts h3 {
