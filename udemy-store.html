@@ -6,27 +6,28 @@ permalink: /sample-store
 ---
 <div class="container">
   <div class="row">
-    <div class="col-md-3">
+    <div class="col-md-4">
       <div id="menu">
         <div class="panel list-group">
-          <h3 class="list-group-item active">Leather Goods</h3>
-          <a href="#" class="list-group-item" data-toggle="collapse" data-target="#sm" data-parent="#menu">Women</a>
-          <div id="sm" class="sublinks collapse">
-            <a class="list-group-item small"><i class="fas fa-shopping-bag"></i>Bags</a>
-            <a class="list-group-item small"><i class="fas fa-stopwatch"></i>Accesssories</a>
+          <a class="list-group-item" href="{{ site.baseurl }}/sample-store">Leather Goods</a>
+          <a href="#" class="list-group-item" data-toggle="collapse" data-target="#women" data-parent="#menu">Women</a>
+          <div id="women" class="sublinks collapse">
+            <a class="list-group-item" href="{{ site.baseurl }}/sample-store/women/bags"><i class="fas fa-shopping-bag"></i>Bags</a>
+            <a class="list-group-item"><i class="fas fa-stopwatch"></i>Accesssories</a>
           </div>
-          <a href="#" class="list-group-item" data-toggle="collapse" data-target="#sl" data-parent="#menu">Men</a>
-          <div id="sl" class="sublinks collapse">
-            <a class="list-group-item small"><i class="fas fa-briefcase"></i>Briefcases</a>
-            <a class="list-group-item small"><i class="fas fa-stopwatch"></i>Accessories</a>
+          <a href="#" class="list-group-item" data-toggle="collapse" data-target="#men" data-parent="#menu">Men</a>
+          <div id="men" class="sublinks collapse">
+            <a class="list-group-item"><i class="fas fa-briefcase"></i>Briefcases</a>
+            <a class="list-group-item"><i class="fas fa-stopwatch"></i>Accessories</a>
          </div>
        </div>
-     </div>
+      </div>
     </div>
-    <div class="col-md-9 storefront">
+    <div class="col-md-8 storefront">
       <div class="jumbotron">
         <h1>PyPros Leather Goods</h1>
-        <p>You can use this site to practice scraping eCommerce data. All product data is fictitious</p>
+        <p>You can use this site to practice scraping eCommerce data.</p>
+        <p>All product data is fictitious.</p>
       </div>
       <img src="{{ site.baseurl }}/images/unsplash-leather.jpg" alt="Leather Bag" />
     </div>

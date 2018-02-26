@@ -1,0 +1,47 @@
+---
+layout: default
+title: Practice Scraping eCommerce
+div_id: store
+permalink: /sample-store/women/bags
+---
+<div class="container">
+  <div class="row">
+    <div class="col-md-4">
+      <div id="menu">
+        <div class="panel list-group">
+          <a class="list-group-item" href="{{ site.baseurl }}/sample-store">Leather Goods</a>
+          <a href="#" class="list-group-item" data-toggle="collapse" data-target="#women" data-parent="#menu">Women</a>
+          <div id="women" class="sublinks">
+            <a class="list-group-item active" href="{{ site.baseurl }}/sample-store/women/bags"><i class="fas fa-shopping-bag"></i>Bags</a>
+            <a class="list-group-item"><i class="fas fa-stopwatch"></i>Accesssories</a>
+          </div>
+          <a href="#" class="list-group-item" data-toggle="collapse" data-target="#men" data-parent="#menu">Men</a>
+          <div id="men" class="sublinks collapse">
+            <a class="list-group-item"><i class="fas fa-briefcase"></i>Briefcases</a>
+            <a class="list-group-item"><i class="fas fa-stopwatch"></i>Accessories</a>
+         </div>
+       </div>
+      </div>
+    </div>
+    <div class="col-md-8">
+      <div class="row">
+        <div class="col-md-6 product card">
+          <img class="card-img-top" src="..." alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+        <div class="col-md-6 product card">
+          <img class="card-img-top" src="..." alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
